@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    font-family: sans-serif;
+}
+
+.game-board{
+    height: 50vh;
+    width: 50vh;
+    border: 1px solid grey;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+.cell{
+    border: 1px solid grey;
+}
